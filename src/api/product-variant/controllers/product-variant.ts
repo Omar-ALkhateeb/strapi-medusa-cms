@@ -1,3 +1,3 @@
 import { factories } from '@strapi/strapi';
 
-export default factories.createCoreController('api::product-variant.product-variant');
+export default factories.createCoreController('api::product-variant.product-variant' as any);
