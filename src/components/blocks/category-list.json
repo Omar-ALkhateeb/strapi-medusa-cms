@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blocks_category_lists",
+  "info": {
+    "displayName": "CategoryList"
+  },
+  "options": {},
+  "attributes": {
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category"
+    },
+    "title": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
